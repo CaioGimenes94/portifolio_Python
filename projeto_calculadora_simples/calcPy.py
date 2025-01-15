@@ -8,7 +8,7 @@ while param not in l1:
 y = float(input('Insira outro número: '))
 
 if param == '+':
-      print(f'O resultado é {x + y}')elif
+      print(f'O resultado é {x + y}')
 elif param == '-':
     print(f'O resultado é {x - y}')
 elif param == '/':
@@ -16,4 +16,4 @@ elif param == '/':
         y = float(input('Não é possível dividir por zero. Insira outro valor: '))
     print(f'O resultado é {x / y}')
 elif param == '*':
-    print(f'O resultado é {x * y}')
+    print(f'O resultado é {x * y:.2f}')
