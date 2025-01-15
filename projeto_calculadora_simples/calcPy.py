@@ -8,7 +8,7 @@ while param not in l1:
 y = float(input('Insira outro número: '))
 
 if param == '+':
-      print(f'O resultado é {x + y}')
+      print(f'O resultado é {x + y}')elif
 elif param == '-':
     print(f'O resultado é {x - y}')
 elif param == '/':
